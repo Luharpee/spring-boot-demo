@@ -10,7 +10,7 @@ pipeline {
     stage('Build') {
       steps {
         withMaven(maven : 'mvn-3.6.3') {
-          sh "mvn clean install pmd:pmd findbugs:findbugs checkstyle:checkstyle package"
+          sh "mvn clean install pmd:pmd findbugs:findbugs package site"
         }
       }
     }    

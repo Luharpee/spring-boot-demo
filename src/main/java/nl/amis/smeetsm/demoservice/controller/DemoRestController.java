@@ -3,7 +3,7 @@ package nl.amis.smeetsm.demoservice.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController 
 public class DemoRestController {
     @GetMapping("/rest/demo")
     //Returning is List is supported with JSON response only
@@ -11,4 +11,4 @@ public class DemoRestController {
     public String demoReply() {
         return "Hi there";
     }
-}
+}    

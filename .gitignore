@@ -145,3 +145,5 @@ target/surefire-reports/2024-09-14T17-56-25_690.dumpstream
 reports/checkstyle/checkstyle.xml
 src/main/main.iml
 src/test/test.iml
+target/surefire-reports/2025-10-10T13-58-36_956-jvmRun1.dump
+target/surefire-reports/2025-10-10T13-58-36_956.dumpstream
